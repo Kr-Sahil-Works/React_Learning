@@ -1,8 +1,7 @@
 function App() {
   return (
     <>
-  <h1 className='text-[#ffffff] bg-green-400 p-5 rounded-md font-semibold italic'>Hello working</h1>
-
+<h1 className='text-[#ffffff] bg-green-400 p-5 rounded-md font-semibold italic'>Hello working</h1>
 
 <figure class="bg-slate-100 rounded-xl p-8 dark:bg-slate-800" >
 
