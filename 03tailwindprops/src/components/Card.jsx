@@ -1,7 +1,7 @@
 import React from 'react'
 
 // function Card(props) {
-function Card({username,btntext,image_var}) {
+function Card({username="Joe",btntext="Vist me",image_var="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMomaG6kUMXc0k_nGJQtrL4UB4V1dtameFbw&s"}) {
     console.log("username",username);
     console.log("button_text",btntext);
     return (

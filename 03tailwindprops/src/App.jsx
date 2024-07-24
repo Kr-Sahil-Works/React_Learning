@@ -1,13 +1,14 @@
 import Card from "./components/Card";
 
 function App() {
-  
+
   let simpleobj={
     name:"Nobita",
     age: 18
   }
   let myarr=[1,2,3,4,5]
   
+  let basic_pp = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMomaG6kUMXc0k_nGJQtrL4UB4V1dtameFbw&s";
   let imgsrc1 ="https://pm1.aminoapps.com/7629/1b0f0066f5b6afe4c60d82d140416ff11e3c5447r1-720-720v2_hq.jpg";
   let imgsrc2="https://avatars.githubusercontent.com/u/29142494?v=4";
   
@@ -49,6 +50,7 @@ function App() {
 
 <Card username ="Akkia" btntext="vist me ->" image_var={imgsrc1} />
 <Card username ="Nobita" btntext="click me" image_var={imgsrc2} />
+<Card  image_var={basic_pp} />
 
 </div>
 
