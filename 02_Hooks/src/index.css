@@ -27,3 +27,19 @@ body {
   min-height: 100vh;
 }
 
+
+button {
+  padding: 5px;
+  border: #e5e5e5 solid 1px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover  {
+  background: #ffffff;
+  color: #041f42;
+  font-style: italic;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
