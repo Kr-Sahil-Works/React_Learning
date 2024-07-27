@@ -1,12 +1,14 @@
-import { useState } from 'react'
+import {useState} from 'react'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [length,setLength] = useState(8)
+  const [numberAllowed,setnumberAllowed] = useState(false)
+  const [charAllowed,setcharAllowed] = useState(false)
+  const [password,setpassword] = useState("")
   return (
     <>
-    <h1></h1>
+    <h1 className='text-4xl text-center text-white'>Password</h1>
     </>
   )
 }
